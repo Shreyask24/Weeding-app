@@ -22,6 +22,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
+import Image from "next/image"
 
 function App() {
   return (
@@ -63,7 +64,7 @@ function App() {
         <div>
           <div className="fixed flex justify-center items-center flex-col h-[90vh] text-white left-0 bottom-[36vh] xl:left-[50vh] xl:bottom-0">
 
-            <h1 className="xl:text-3xl text-[15px]  font-bold">India's Most Comprehensive Wedding Planning Network</h1>
+            <h1 className="xl:text-3xl text-[15px]  font-bold">India&apos;s Most Comprehensive Wedding Planning Network</h1>
             <h3 className="font-semibold text-[11px] mt-4 xl:text-[15px]">Connect With Top-Rated Photographers, Makeup Artists, Manda , Caterers, And Others</h3>
           </div>
 
@@ -114,30 +115,30 @@ function App() {
           <Carousel orientation="horizontal" className="w-[90vw] mt-[20vh] xl:mt-[5vh] h-[30vw] bg-white flex justify-center items-center">
             <CarouselContent className=" text-white mr-[60vw] xl:w-[25vw] w-[100vw]">
               <CarouselItem className="h-[40vh] xl:ml-5 ml-0">
-                <img src="https://img.weddingbazaar.com/shaadisaga_production/static/vendor_categories/mandapImageCompressed.jpg" className="h-full w-[45vh]  border-red-500 border-8 rounded-md" alt="" />
+                <Image src="https://img.weddingbazaar.com/shaadisaga_production/static/vendor_categories/mandapImageCompressed.jpg" className="h-full w-[45vh]  border-red-500 border-8 rounded-md" alt="" />
 
                 <h1 className="bg-red-500 text-white rounded-md xl:text-lg text-sm font-serif font-bold absolute bottom-2 w-[20vh] text-center left-[17vh]">Videographer</h1>
               </CarouselItem>
 
               <CarouselItem className="h-[40vh] ml-5">
-                <img src="https://img.weddingbazaar.com/shaadisaga_production/static/vendor_categories/mandapImageCompressed.jpg" className="h-full w-[45vh]  border-red-500 border-8 rounded-md" alt="" />
+                <Image src="https://img.weddingbazaar.com/shaadisaga_production/static/vendor_categories/mandapImageCompressed.jpg" className="h-full w-[45vh]  border-red-500 border-8 rounded-md" alt="" />
 
               </CarouselItem>
 
               <CarouselItem className="h-[40vh] ml-5">
-                <img src="https://img.weddingbazaar.com/shaadisaga_production/static/vendor_categories/mandapImageCompressed.jpg" className="h-full w-[45vh]  border-red-500 border-8 rounded-md" alt="" />
-
-
-              </CarouselItem>
-
-              <CarouselItem className="h-[40vh] ml-5">
-                <img src="https://img.weddingbazaar.com/shaadisaga_production/static/vendor_categories/mandapImageCompressed.jpg" className="h-full w-[45vh]  border-red-500 border-8 rounded-md" alt="" />
+                <Image src="https://img.weddingbazaar.com/shaadisaga_production/static/vendor_categories/mandapImageCompressed.jpg" className="h-full w-[45vh]  border-red-500 border-8 rounded-md" alt="" />
 
 
               </CarouselItem>
 
               <CarouselItem className="h-[40vh] ml-5">
-                <img src="https://img.weddingbazaar.com/shaadisaga_production/static/vendor_categories/mandapImageCompressed.jpg" className="h-full w-[45vh]  border-red-500 border-8 rounded-md" alt="" />
+                <Image src="https://img.weddingbazaar.com/shaadisaga_production/static/vendor_categories/mandapImageCompressed.jpg" className="h-full w-[45vh]  border-red-500 border-8 rounded-md" alt="" />
+
+
+              </CarouselItem>
+
+              <CarouselItem className="h-[40vh] ml-5">
+                <Image src="https://img.weddingbazaar.com/shaadisaga_production/static/vendor_categories/mandapImageCompressed.jpg" className="h-full w-[45vh]  border-red-500 border-8 rounded-md" alt="" />
 
               </CarouselItem>
 
